@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="font-family: 'Georgia', Times, Times New Roman, serif; background-image: url(../images/vintage-concrete.png);"
->
+<html lang="en" style="font-family: 'Georgia', Times, Times New Roman, serif;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +7,62 @@
     <title>Personal Bio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
-<body>
-    <div class="container" >
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff";  >
-        <h1 style="background-color:#4aaaa5; color: #fff; padding: 10px;">Jim Schlader</h1>
-              
-        <div class="collapse navbar-collapse" class="position-relative" style="background-color: #fff"; id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 position-absolute" ; style="right: 0"; style="background-color: #fff";>
-            <li class="nav-item active">
-              <a class="nav-link" style="color: #4aaaa5;" href="#">About <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: #4aaaa5;" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: #4aaaa5;" href="./contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      </div>
+<body style="background-image: url(./assests/vintage-concrete.png); font-family: 'Georgia', Times, Times New Roman, serif;">
 
-      <div class="container">
+    <div class="container-fluid bg-white" >
+        <div class="container justify-content-center px-0">
+            <nav class="navbar navbar-expand-sm justify-content-center px-0 ">
+            
+                <div class="navbar-header">
+
+                    <a class="navbar-brand" style="background-color:#4aaaa5; color: #fff; padding: 10px; font-size: 2.5rem" href="#">Jim Schlader</a>
+                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0"  >
+                        <li class="active">
+                        <a class="nav-link" href="#" style="color: #4aaaa5;">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html" style="color: #4aaaa5;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./contact.html" style="color: #4aaaa5;">Contact</a>
+                        </li> 
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+       
+      <div class="container bg-white mt-3">
           <div class="row" >
               <div class="col-sm" >
                   <h1 style="color: #4aaaa5; padding:20px; border-bottom: 3px solid #4aaaa5; ">About Me</h1>
               </div>
-
           </div>
+          
           <div class="row" >
-              <div class="col-sm" style="padding-top: 20px"><img src="../Basic-Portfolio/assets/images/myPic.JPG" class="img-fluid" alt="Responsive image" alt="Picture of me"></div>
+                <div class="col-sm" style="padding-top: 20px">
+                    <img src="../Basic-Portfolio/assets/images/myPic.JPG" class="img-fluid .pull-left" alt="Responsive image" alt="Picture of me">
+                </div>
 
-          </div>
-          <div class="row">
-              <div class="col-sm">
+                <div class="col-sm" style="padding-top: 20px">
                   <p>After spending 17+ years in retail management, I am embarking on a serious career change. I am currently attending Coding Bootcamp at the University of Utah for Full Stack Web development.</p>
                   <p>During my time in retail, I learned about working hard, teamwork, logistics, merchandising, planning, leadership, human resources, and many, many other important skills. I look forward to bring all of those skills I've developed during my career to the tech industry.</p>
                   <p>here are a few features about working in tech that appeal to me. First, I like the idea of working with clients and teams to create tools and websites that make people's lives better. I am excited to learn more about the design elements of website development that go into improving a user's experience of a website. Secondly, I'm excited to work with new technology to incorporate data into easily accessible tools that clients and users can deploy to help with their projects or in their daily lives. Finally, I personally enjoy the challenge involved in learning and developing as a person while I grow through the material in this course.</p>
-              </div>
+                </div>
 
-          </div>
+            </div>     
       </div>
 
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
